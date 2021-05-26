@@ -1,0 +1,40 @@
+.jumbotron {
+  padding-top: 6rem;
+  /*background-color: #a6a6a6;*/
+  background-image: url(img/projects/4.jpg);
+  background-size: cover;
+  height: 750px;
+}
+#about {
+  background-color: #0a4a9b;
+}
+#projects {
+  background-color: #037eb2;
+}
+section {
+  padding-top: 5rem;
+}
+#slider {
+  background-color: #0a4a9b;
+}
+#contact {
+  background-color: #037eb2;
+}
+
+.slider img {
+  width: 350px;
+  height: 250px;
+  display: inline;
+  padding: 1px 2px 3px 2px;
+}
+svg {
+  padding: 0;
+}
+/* version destop */
+@media (min-width: 992px) {
+  .slider img {
+    width: 975px;
+    height: 525px;
+    padding: 1px 2px 3px 2px;
+  }
+}
